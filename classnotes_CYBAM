@@ -1,0 +1,53 @@
+##Keyboard shortcuts
+
+CTRL+ALT+T = Opens a new terminal
+CTRL+ALT+Left/Right arrow = pins the terminal to the left or right
+CTRL+ALT+Up/Down Key = Maximizes/minimizes a screen
+
+## Nano
+
+nano filename = opens up a file by that name
+CTRL+S = saves output of the file that you're edting
+CTRL+X = exits out of the editing file
+
+## Basic Commands
+ls - list files
+ls -a = lists all files (hidden files)
+ls -l = list file permissions
+cd directoryname - change directory
+cd .. = go back one directory
+cd ../.. = go back two directories
+cd = go back to your home directory
+pwd = print current directory that you are in
+cp = copy a file
+mv = move/rename a file
+
+## basic cybersecurity commandsz
+ping website/ip address = ping (knock) for a connection on a url or ip address
+(ping 8.8.8.8)
+
+## Adding User
+
+sudo adduser <username> - Creates a new user
+sudo adduser <username> <group> - Add a user to a group
+	eX: sudo adduser guest sudo
+sudo usermod -aG <username> <group> - Also adds a user to a group
+
+## Connecting to a networkgoodbye
+sudo nmcli dev wifi list - get a list of different wifi networks
+sudo nmcl dev wifi con <SSID> password <passsword> Connect to a network
+	EX: sudo nmcli dev wifi con CYB_Remote password 123456
+
+sudo nmcli dev wifi show - shows the SSID and password via QR code
+
+## Browser Navigation
+
+CTRL+T - Opens a new tab
+CTRL+W - closes a tab
+CTRL+Tab - move in between tabs
+ALT+Left/Right arrow = forward/back a page
+CTRL+D = Bookmark a page
+CTRL+K, CTRL+L = link to address bar
+Tab = navigate through a page
+Shift+tab = backwards navigation on a page
+

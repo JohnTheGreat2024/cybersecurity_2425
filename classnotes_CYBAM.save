@@ -1,0 +1,22 @@
+ctrl+alt+T = opens a new terminal
+ctrl+alt+left/right arrow= pins the terminal to the left and right 
+ctrl+ alt+up/down key = maximizes/ minimizes a screen 
+
+nano filename= opens up file by that name 
+ctrl+s = saves output of the file that you are editing 
+ctrl+x = exits out of the editing file 
+
+ls - list files
+ls -a = list all files (hidden files) 
+ls- -l = list file permissions 
+cd -dit=retoryname  change directory 
+cd - ../..= go back to one diretory
+cd../..=go back two direcrories 
+cd= go back to your home directory 
+pwd= print current directory that you are in 
+cp = copy file 
+mv = move/remove a file 
+sudo adduser <usernamme> - creates a new user 
+sudo adduser <username> <group> - add a user to a group 
+    ex: sudo adduser guest sudo 
+
